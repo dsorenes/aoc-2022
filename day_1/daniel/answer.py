@@ -5,7 +5,7 @@ def read_input(filename):
         return lines
 
 if __name__ == '__main__':
-    lines = read_input("../input.txt")
+    lines = read_input("input.txt")
     current_calories = 0
     calories = []
     for line in lines:
